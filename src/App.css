@@ -40,3 +40,33 @@
 .read-the-docs {
   color: #888;
 }
+
+/* form {
+    overflow: hidden;
+}
+label {
+    float: left;
+    width: 200px;
+    padding-right: 24px;
+    font-weight: bold;
+}
+input {
+    float: left;
+} */
+form {
+  overflow: hidden;
+}
+label {
+  float: left;
+  width: 200px;
+  padding-right: 24px;
+}
+input {
+  float: right;
+  width: calc(100% - 250px);
+}
+
+form button {
+  float: right;
+  width: calc(100% - 250px);
+}
